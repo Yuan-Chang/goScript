@@ -1,5 +1,4 @@
 - Function: quickly switch between multiple paths
-
 - Initial setting
  1. set global path in ~/.bash_profile and "source ~/.bash_profile"
  2. change go, setpath absolute path
