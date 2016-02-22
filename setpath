@@ -1,0 +1,9 @@
+#! /bin/bash
+
+base="/Users/home/Desktop/code/script/go/path/$1"
+
+path=$(pwd)
+
+echo $path > $base
+
+
