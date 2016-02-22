@@ -1,6 +1,6 @@
 #! /bin/bash
 
-base="/Users/home/Desktop/code/script/go/path/$1"
+base="/Users/home/Desktop/code/script/goScript/path/$1"
 
 path=$(pwd)
 
