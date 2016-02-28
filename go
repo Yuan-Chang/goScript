@@ -1,7 +1,7 @@
 #! /bin/bash
+source global
 
-filePath="/Users/home/Desktop/code/script/goScript/path/$1"
-
+filePath="${SCRIPT_PATH}/goScript/path/$1"
 path=$(cat $filePath)
 
 cd $path
