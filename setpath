@@ -1,9 +1,9 @@
-#! /bin/bash
+#! /bin/zsh
 source global
 
 filePath="${SCRIPT_PATH}/goScript/path/$1"
-path=$(pwd)
+myPath=$(pwd)
 
-echo $path > $filePath
+echo $myPath > $filePath
 
 

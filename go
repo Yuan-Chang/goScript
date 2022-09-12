@@ -1,8 +1,9 @@
-#! /bin/bash
+#!/bin/zsh
+
 source global
 
 filePath="${SCRIPT_PATH}/goScript/path/$1"
-path=$(cat $filePath)
+myPath=$(cat $filePath)
 
-cd $path
+cd $myPath
 
